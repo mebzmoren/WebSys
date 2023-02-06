@@ -1,0 +1,20 @@
+h1{
+    color:blue;
+    text-align:center;
+    font-family:arial;
+}
+
+body{
+    /*background-image:url('img_tree.png');
+    background-repeat:no-repeat;*/
+    background-color:red;
+}
+
+p{
+    color:blue;
+    text-align:center;
+    font-family:arial;
+    background-color:orange;
+    width:350px
+    border-left:20px
+}

@@ -1,0 +1,45 @@
+.center{
+    min-height:100vh;
+    display:flex;
+    text-align:left;
+    justify-content:center;
+    align-items:center;
+}
+
+.center .wrapper{
+    padding:30px 100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border:1px solid #737373;
+    border-radius: 2px;
+    height:500px;
+    width:600px;
+    transition:all 0.3s ease 0s;
+}
+
+.center .wrapper p{
+    font-size: 1.25rem;
+    margin: 40px;
+    color:green;
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-style:dotted;
+    text-decoration-color:blue ;
+}
+
+.center .wrapper p:first-child{
+    color:green;
+    text-align:left;
+    text-decoration:underline;
+    text-decoration-style:wavy;
+    text-decoration-color:yellow;
+}
+
+.center .wrapper p:last-child{
+    color:gainsboro;
+    text-align:right;
+    text-decoration:underline;
+    text-decoration-style:double;
+    text-decoration-color:purple ;
+}
