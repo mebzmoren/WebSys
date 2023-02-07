@@ -1,0 +1,26 @@
+.box1{
+    width: 300px;
+    margin: 20px;
+    border-top: 20px solid red;
+    border-left: 20px solid red;
+    border-bottom: 20px solid pink;
+    border-right: 20px solid pink;
+    padding: 10px 80px 10px 50px;
+    background-color: yellow;
+}
+
+/*{
+    width: 300px;
+    margin: 20px;
+    border-top: 20px red;
+    border-left: 20px red;
+    border-bottom: 20px pink;
+    border-right: 20px pink;
+    padding: 10px 80px 10px 50px;
+    background-color: yellow;
+}*/
+
+/*div{
+    width: 100px;
+    border: 15px solid orange;
+}*/
