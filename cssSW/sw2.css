@@ -1,26 +1,36 @@
+div{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.box1, .box5{
+    width: 90px;
+}
+
 .box1{
-    width: 300px;
-    margin: 20px;
     border-top: 20px solid red;
     border-left: 20px solid red;
     border-bottom: 20px solid pink;
     border-right: 20px solid pink;
-    padding: 10px 80px 10px 50px;
+    padding: 25px 60px 40px 40px;
     background-color: yellow;
 }
 
-/*{
-    width: 300px;
-    margin: 20px;
-    border-top: 20px red;
-    border-left: 20px red;
-    border-bottom: 20px pink;
-    border-right: 20px pink;
-    padding: 10px 80px 10px 50px;
-    background-color: yellow;
-}*/
+.box234{
+    float: left;
+    border: 5px solid blue;
+    background-color: aquamarine;
+    font-weight: bold;
 
-/*div{
-    width: 100px;
-    border: 15px solid orange;
-}*/
+}
+
+.box5{
+    margin-top: 55px;
+    border-top: 45px solid green;
+    border-left: 45px solid green;
+    border-bottom: 45px solid grey;
+    border-right: 45px solid grey;
+    text-align: left;
+    padding: 30px 1px 30px 50px;
+    background-color: lightgreen;
+}
