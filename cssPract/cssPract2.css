@@ -1,0 +1,16 @@
+table{
+    border: 1px solid red;
+}
+
+th{
+    background-color: red;
+    color: white;
+}
+
+td{
+    border: 1px solid red;
+}
+
+td.course{
+    color: red;
+}

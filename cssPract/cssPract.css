@@ -1,0 +1,28 @@
+p, h3, div{
+    margin-top: 50px;
+    text-align: center;
+}
+
+p{
+    color: green;
+    text-decoration:underline;
+    text-decoration-style: wavy;
+    text-decoration-color: yellow;
+    margin-right: 300px;
+}
+
+h3{
+    color: red;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+}
+
+div{
+    color: gray;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: violet;
+    margin-left: 300px;
+}
