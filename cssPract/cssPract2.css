@@ -7,7 +7,7 @@
     transition: all .4s linear;
 }
 
-div{
+.box{
     margin: 30px;
     border: 1px solid black;
     padding: 30px;
@@ -47,4 +47,13 @@ td{
 
 td.course{
     color: red;
+}
+
+.box1{
+    background-color: yellow;
+    width: 400px;
+    height: 80px;
+    padding: 10px;
+    border: 10px solid green;
+    margin: 10px;
 }
