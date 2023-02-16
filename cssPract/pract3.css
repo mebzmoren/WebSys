@@ -1,0 +1,19 @@
+.animal1{
+    background-color: yellow;
+}
+
+.animal2{
+    background-color: green;
+    font-style: italic;
+}
+
+b#boldStyle1{
+    color: green;
+    font-size: x-large;
+
+}
+
+b#boldStyle2{
+    color: orange;
+    font-size: x-large;
+}
