@@ -50,6 +50,9 @@ td.course{
 }
 
 .box1{
+    position: fixed;
+    left: 100px;
+    top: 50px;
     background-color: yellow;
     width: 400px;
     height: 80px;
