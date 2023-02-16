@@ -57,3 +57,10 @@ td.course{
     border: 10px solid green;
     margin: 10px;
 }
+
+.box2{
+    background-color: red;
+    width: 440px;
+    height: 60px;
+    margin: 10px;
+}
