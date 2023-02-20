@@ -49,10 +49,14 @@ section{
 }
 
 a{
-    color: black;
     text-decoration: none;
 }
-a:hover  .pad:hover{
+
+.navigation{
+    color: black;
+}
+
+a:hover  .pad{
     background-color: maroon;
     color: white;
 }
@@ -61,3 +65,13 @@ a:hover  .pad:hover{
     border-bottom: 3px solid lightgray;
 }
 
+.footer{
+    text-decoration: none;
+    border:1px solid lightgrey;
+    text-align: right;
+}
+
+.footerLinks{
+    color:lightgray;
+    padding: 10px 10px 10px 10px;
+}
