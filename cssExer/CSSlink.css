@@ -34,10 +34,6 @@ img:hover{
     border: 1px solid lightgray;
 }
 
-p{
-    padding: 70px 0px 100px 200px;
-}
-
 section{
     margin-top: 2%;
     border: 10px solid lightgray;
@@ -48,17 +44,25 @@ section{
     padding:10px 60px 10px 10px;
 }
 
+.pad:hover{
+    background-color: maroon;
+    color: white;
+}
+
+p{
+    padding: 80px 0px 100px 200px;
+}
+
 a{
     text-decoration: none;
 }
 
-.navigation{
-    color: black;
+.dummy{
+    color: green;
 }
 
-a:hover  .pad{
-    background-color: maroon;
-    color: white;
+.navigation{
+    color: black;
 }
 
 .bottomBorder{
@@ -69,9 +73,14 @@ a:hover  .pad{
     text-decoration: none;
     border:1px solid lightgrey;
     text-align: right;
+    padding: 20px 0px 20px 0px;
 }
 
 .footerLinks{
     color:lightgray;
-    padding: 10px 10px 10px 10px;
+    padding: 0px 20px 0px 0px;
+}
+
+.footerLinks:hover{
+    color: black;
 }
