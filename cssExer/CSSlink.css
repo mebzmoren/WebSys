@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: all .4s linear;
+}
+
+h1{
+    font-family: Arial;
+    color: lightgray;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+}
+
+div{
+    margin: 1% 5% 1% 5%;
+}
+
+.gallery{
+    margin: 1% 5% 1% 5%;
+}
+
+img{
+    width: 24.76%; 
+}
+
+img:hover{
+    opacity: 0.3;
+}
+
+.middleBody{
+    border: 1px solid lightgray;
+}
+
+p{
+    padding: 70px 0px 100px 200px;
+}
+
+section{
+    margin-top: 2%;
+    border: 10px solid lightgray;
+    position:absolute;
+}
+
+.pad{
+    padding:10px 60px 10px 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover  .pad:hover{
+    background-color: maroon;
+    color: white;
+}
+
+.bottomBorder{
+    border-bottom: 3px solid lightgray;
+}
+
