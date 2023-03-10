@@ -13,8 +13,6 @@
         foreach($arr as $place => $food){
             echo $place . "has" . $food;
         }
-
-        function 
     ?>
 </body>
 </html>
