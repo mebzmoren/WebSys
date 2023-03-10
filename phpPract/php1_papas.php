@@ -8,7 +8,13 @@
 </head>
 <body>
     <?php
-        $arr = array ("coffeebean" => "coffee", "sansrival" => "cakes", "stateresa" => "filipinofood", "2story" => "koreanfood", "mooon" => "mexicanfood")
+        $arr = array ("coffeebean" => "coffee", "sansrival" => "cakes", "stateresa" => "filipinofood", "2story" => "koreanfood", "mooon" => "mexicanfood");
+
+        foreach($arr as $place => $food){
+            echo $place . "has" . $food;
+        }
+
+        function 
     ?>
 </body>
 </html>
