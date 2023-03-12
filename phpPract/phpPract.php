@@ -42,6 +42,9 @@
         else
             echo "<br>Different Type";
 
+        echo "<br>";
+
+        //switch
         switch($var1){
             case "Hello":
                 echo $var1;
@@ -59,8 +62,68 @@
                 echo $var5;
                 break;
             default:
-                echo "none"
+                echo "none";
                 break;
+        }
+
+        echo "<br>";
+
+        //loops
+        while($var5 < 3){
+            echo $var5 . "<br>";
+            $var5++;
+        }
+
+        do{
+            echo $var5 . "<br>";
+            $var5++;
+        }while($var5 < 8);
+
+        for($var5; $var5 < 12; $var5++){
+            echo $var5 . "<br>";
+        }
+
+        //function
+        function thisone($var6){
+            if ($var6 == 10)
+                echo "Equal";
+            else
+                echo "Not Equal";
+        }
+
+        thisone(5);
+
+        echo "<br>";
+
+        //returning values
+        function f1($var7=20){
+            return ++$var7;
+        }
+
+        echo f1();
+
+        $var8 = f1(3);
+        echo "<br>" . $var8;
+
+        f1(9);
+
+        echo "<br>";
+
+        //arrays
+        $fruits = array("apple", "mango", "orange");
+
+        echo count($fruits);
+        $length = count($fruits);
+
+        for($x = 0; $x < $length; $x++){
+            echo "<br>" . $fruits[$x];
+        }
+
+        $age = array(   "Peter" => "35",
+                        "Ben" => "37");
+        
+        foreach($age as $key){
+            echo "<br> $key";
         }
 
         phpinfo();  //outputs how the version of php was configured
