@@ -27,7 +27,7 @@
         var_dump($var3);
         var_dump($var4);
 
-        define("school", "<br>Silliman University");
+        define("school", "<br>Silliman University");    //constant, can't be modified
         define("score", 100, true);
         echo school;
         echo score;
@@ -42,7 +42,28 @@
         else
             echo "<br>Different Type";
 
-        phpinfo();
+        switch($var1){
+            case "Hello":
+                echo $var1;
+                break;
+            case 1234:
+                echo $var2;
+                break;
+            case null:
+                echo $var3;
+                break;
+            case 1.0;
+                echo $var4;
+                break;
+            case 1;
+                echo $var5;
+                break;
+            default:
+                echo "none"
+                break;
+        }
+
+        phpinfo();  //outputs how the version of php was configured
     ?>
 </body>
 </html>
