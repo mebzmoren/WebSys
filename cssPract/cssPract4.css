@@ -1,0 +1,9 @@
+.box1{
+    background-color: indianred;
+    width: 400px;
+    height: 80px;
+    padding: 10px;
+    border: 10px solid green;
+    margin: 10px;
+    position: fixed;
+}
